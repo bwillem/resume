@@ -1,0 +1,36 @@
+body * {
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, “Fira Sans”, “Droid Sans”, “Helvetica Neue”, Arial, sans-serif;
+}
+
+.expanding-appear {
+  width: 0%
+}
+
+.expanding-appear.expanding-appear-active{
+  width: 100%;
+  transition: width 1000ms ease-out
+}
+
+.h-screen {
+  height: 100vh
+}
+
+.text-grey {
+  color: rgba(0,0,0,0.8)
+}
+
+hr {
+  border:none;
+  border-bottom: 1px solid rgba(0,0,0,0.5)
+}
+
+.vc {
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%)
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
