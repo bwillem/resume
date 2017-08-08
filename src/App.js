@@ -101,7 +101,7 @@ class App extends Component {
               After winning Kelowna Startup Weekend 2017 we're hustling to release this product by September.
             </p>
             <p className='f5 f4-ns lh-copy measure'>
-              Currently working on product product design and building out a scalable design system - 
+              Currently working on product design and building out a scalable design system - 
               both theoretical and technical (library of React components). Next up: API design and data architecture.
             </p>
             <p className='f5 f4-ns lh-copy measure'>
