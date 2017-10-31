@@ -14,7 +14,7 @@ class App extends Component {
           <Box className='pa2 pa5-ns vc text-grey'>
             <span className='f6-ns ttu tracked white bg-light-purple ph2 pv1 ml1-l br1 dn di-l'>new and improved!</span>
             <h1 className='f-headline-l f1-m mt4 mb0'>bryan willem <span role='img' aria-label='unicorn'>🦄</span></h1>
-            <h2 className='f1-l f3-m'>designer, developer based in Kelowna, BC</h2>
+            <h2 className='f1-l f3-m'>UI engineer based in Kelowna, BC</h2>
             <ExpandingLine />
             <a className="o-80 pl0 pr5 pt3 pb2 dib fw-700 text-decoration-none c-inherit" href="https://github.com/bwillem">
               <img className="dib w-1em h-1em m0 fs4" src="https://icon.now.sh/github/111" width='24px'/>
@@ -31,20 +31,21 @@ class App extends Component {
           <Box>
             <h2 className='f6 ttu tracked'>about</h2>
             <p className='f2 near-black lh-copy measure'>
-              Working toward beautiful and usable internets.
+              Working toward a beautiful and usable internet.
             </p>
             {/* <p className='f5 f4-ns lh-copy measure'>
               Two things really stuck with me after University: computer science and Modernism.
               Turns out product design and development marry these pretty conveniently. 
             </p> */}
             <p className='f5 f4-ns lh-copy measure'>
-              I've been into computers since I can remember - 8 years old or so.
-              I started messing with code and learning how the web works at about 18. I developed an appetite for learning
-              about programming and it hasn't faded.
+              I started messing with code and learning how the web works as a teenager. 
+              I developed an appetite for learning about programming and it hasn't faded.
             </p>
             <p className='f5 f4-ns lh-copy measure'>
-              Currently I write my code with VSCode + Vim, use iTerm2 with ohmyzsh, Github and Gitlab
-              for source control, Sketch or Figma for mocks and wireframes, and my favorite animal is the dog. 🐴
+              I started with static web pages in 2012, in 2013 started full time Wordpress development.
+              From here my interests shifted to software, where I worked with FreshGrade
+              on their web and mobile apps for over a year. While I never lost my passion for
+              design, my focus now is product development.
             </p>
             <p className='f5 f4-ns lh-copy measure'>
               {/* Modernism is the progenitor of UI design. A lot of work was done developing visual principles,
